@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+img {
+   max-width: 100%;
+}
+
+/* common style  */
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.common-btn {
+    background-color: #fd6e0aFF;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.without-bg-btn {
+    color: #fd6e0aFF;
+    background-color: white;
+    border: 1px solid #fd6e0aFF;
+    
+}
+
+.dark-1 {
+    color: #181818;
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+.dark-3 {
+    color: #757575;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+
+/*============== main design starts from here  ==========*/
+
+/* Header related design */
+header{
+    
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 30px;
+}
+
+nav .nav-link {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .nav-link li a {
+    text-decoration: none;
+} 
+
+
+/* hero part starts */
+.hero-right-left-part {
+    display: flex;
+    align-items: center;
+    
+}
+
+.hero-left-part {
+    display: grid;
+    row-gap: 20px;
+}
+
+.hero-left-part .first-p {
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.hero-left-part .owner-name {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.hero-left-part .second-p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.two-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+
+/* about section starts */
+.about-section{
+    background-color: #fff8f2;
+    margin-top: 160px;
+    padding: 130px 150px;
+    border-radius: 10px;
+    display: grid;
+    row-gap: 30px;
+}
+
+.about-section .about-title {
+    font-size: 2rem;
+    font-weight: 700;
+} 
+
+.about-section .about-info {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.btn-box {
+    background-color: #ede7e2;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* what I do section */
+.what-i-do-section {
+    margin-top: 130px;
+    display: grid;
+    row-gap: 50px;
+    margin-bottom: 130px;
+}
+
+.what-i-do-section .skill-title-des {
+    display: grid;
+    row-gap: 10px;
+}
+
+.skill-title-des .skill-title {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.skill-title-des .skill-des {
+    font-size: 0.85rem;
+}
+
+
+.what-i-do-section .cards-parent {
+    display: flex;
+    gap: 24px;
+    
+}
+
+.card {
+    box-shadow: 0px 6px 50px 0px #0000000F; 
+    border-radius: 10px;
+    padding: 30px;
+    display: grid;
+    row-gap: 30px;
+}
+
+.card .multiple-icons {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
