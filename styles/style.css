@@ -228,6 +228,7 @@ nav .nav-link li a {
 .gallery {
     text-align: center;
     font-size: 1.5rem;
+    margin-bottom: 130px;
 }
 
 section>h3 {
@@ -275,7 +276,66 @@ section>h3 {
 }
 
 
+/* footer section starts */
+.footer-part {
+    background-color: #fff8f2;
 
+}
+
+.footer-part .footer-whole-part {
+    padding: 130px 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 150px;
+}
+
+.footer-whole-part .footer-left-part {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.footer-social-media-links {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-social-media-links i {
+    /* display: inline-block; */
+    width: 50px;
+    height: 50px;
+    background-color: rgb(220, 212, 205);
+    border-radius: 50px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    color: #fd6e0aFF;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+
+.footer-right-part {
+    display: grid;
+    row-gap: 40px;
+}
+
+.footer-right-part input[type="text"], input[type="email"],
+.footer-right-part textarea {
+    padding: 10px;
+    border: none;
+    background-color: rgb(239, 236, 236);
+    border-radius: 10px;
+    color: #757575;
+    font-size: 0.7rem;
+    text-align: left;
+}
+
+.footer-right-part .sumit-btn {
+    justify-self: center;
+}
 
 
 
